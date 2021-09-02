@@ -1,0 +1,355 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2024,
+      "max": [
+        104.99999237060547,
+        65.704689025878906,
+        51.142509460449219
+      ],
+      "min": [
+        -105.00000762939453,
+        -10.930098533630371,
+        -54.143692016601562
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24288,
+      "componentType": 5126,
+      "count": 2024,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2024,
+      "max": [
+        4.6274209022521973,
+        4.6488165855407715
+      ],
+      "min": [
+        -3.6320230960845947,
+        -3.6488165855407715
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3072,
+      "max": [
+        2023
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 48576,
+      "componentType": 5126,
+      "count": 2314,
+      "max": [
+        92.727317810058594,
+        139.2379150390625,
+        70.705101013183594
+      ],
+      "min": [
+        -92.727310180664062,
+        7.4075236320495605,
+        -67.973281860351562
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 76344,
+      "componentType": 5126,
+      "count": 2314,
+      "max": [
+        1,
+        0.99615395069122314,
+        0.99993836879730225
+      ],
+      "min": [
+        -1,
+        -0.99925565719604492,
+        -0.99993836879730225
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 16192,
+      "componentType": 5126,
+      "count": 2314,
+      "max": [
+        0,
+        0
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12288,
+      "componentType": 5125,
+      "count": 13632,
+      "max": [
+        2313
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "hate94neu (https://sketchfab.com/hate94neu)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/futon-armchair-low-poly-009445d227f24792a00afaef8660167c",
+      "title": "Futon Armchair - Low Poly"
+    },
+    "generator": "Sketchfab-8.50.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 66816,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 34704,
+      "byteOffset": 66816,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 104112,
+      "byteOffset": 101520,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 205632,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "FutonMadera",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "FutonColchon",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.42781101512558173
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Futon_FutonMadera_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "FutonColchon_FutonColchon_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "02391ce32e2b495793ae0059f17e7f5e.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0000001192092864,
+        -3.5704554683654088e-09,
+        -7.9275418798521406e-08,
+        0,
+        3.5704548858431642e-09,
+        1,
+        -1.9790606931024906e-09,
+        0,
+        7.9275409355222313e-08,
+        1.9790604100532121e-09,
+        0.99999999999999689,
+        0,
+        0,
+        10.930085182189941,
+        0.059902667999267578,
+        1
+      ],
+      "name": "Futon"
+    },
+    {
+      "mesh": 0,
+      "name": "Futon_FutonMadera_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1.0499999523162808,
+        -3.7489780909117871e-09,
+        -8.32391760354179e-08,
+        0,
+        1.7852276656253904e-09,
+        0.5,
+        -9.8121499814140779e-10,
+        0,
+        5.5492785603577533e-08,
+        1.3737007758694658e-09,
+        0.69999998807906882,
+        0,
+        0,
+        10.930085182189941,
+        0.059902667999267578,
+        1
+      ],
+      "name": "FutonColchon"
+    },
+    {
+      "mesh": 1,
+      "name": "FutonColchon_FutonColchon_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

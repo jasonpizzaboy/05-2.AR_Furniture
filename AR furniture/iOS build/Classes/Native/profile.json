@@ -1,0 +1,61 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "il2cpp_outer", "ph":"M", "name": "process_name", "args": {"name": "il2cpp_outer"} },
+{ "pid": "il2cpp_outer", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -1} },
+{ "pid": "il2cpp_outer", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 1630177301222000,"dur": 166000, "ph":"X", "name": "il2cpp.exe"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 1630177301236000,"dur": 145000, "ph":"X", "name": "BeeDriverRunner.Execute"},
+{ "pid": "BeeDriver", "ph":"M", "name": "process_name", "args": {"name": "BeeDriver"} },
+{ "pid": "BeeDriver", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -2} },
+{ "pid": "BeeDriver", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
+{ "pid": "BeeDriver", "tid": 1,"ts": 1630177301277000,"dur": 0, "ph":"X", "name": "Build FinalProgram"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 1630177301278000,"dur": 13000, "ph":"X", "name": "WriteBuildProgramData"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 1630177301291000,"dur": 81000, "ph":"X", "name": "Run Backend"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 1630177301372000,"dur": 1000, "ph":"X", "name": "Finish"},
+{ "cat":"", "pid":"bee_backend", "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301313539, "dur":19012, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":19, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301332552, "dur":1899, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":2, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301334600, "dur":311, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301334916, "dur":1, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301334917, "dur":161, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"BuildQueueInit" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301355363, "dur":111, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301355581, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301355688, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301355769, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301355859, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301356001, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301356099, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301356225, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301356305, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1630177301356347, "dur":1323, "ph":"X", "name": "Tundra",  "args": { "durationMS":1, "detail":"Write AllBuiltNodes" }}
+,{ "pid":"bee_backend", "tid":1, "ts":1630177301334982, "dur":20444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":20, "detail":"" }}
+,{ "pid":"bee_backend", "tid":1, "ts":1630177301355426, "dur":1, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":2, "ts":1630177301335009, "dur":20350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":20, "detail":"" }}
+,{ "pid":"bee_backend", "tid":2, "ts":1630177301355372, "dur":1, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":3, "ts":1630177301335014, "dur":20347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":20, "detail":"" }}
+,{ "pid":"bee_backend", "tid":3, "ts":1630177301355367, "dur":1, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":4, "ts":1630177301335025, "dur":20349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":20, "detail":"" }}
+,{ "pid":"bee_backend", "tid":4, "ts":1630177301355375, "dur":2, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":5, "ts":1630177301335038, "dur":20340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":20, "detail":"" }}
+,{ "pid":"bee_backend", "tid":5, "ts":1630177301355378, "dur":1, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":6, "ts":1630177301335057, "dur":69, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":6, "ts":1630177301337506, "dur":6169, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":6, "detail":"IL2CPP_CodeGen /Users/tg/Documents/GitHub/AR furniture/AR furniture/Library/Il2cppBuildCache/iOS/buildstate/artifacts/il2cpp_conv_x3vw.traceevents" }}
+,{ "pid":"bee_backend", "tid":6, "ts":1630177301355191, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"FinalProgram" }}
+,{ "pid":"bee_backend", "tid":6, "ts":1630177301355227, "dur":135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":6, "ts":1630177301355371, "dur":1, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":7, "ts":1630177301335068, "dur":20322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":20, "detail":"" }}
+,{ "pid":"bee_backend", "tid":7, "ts":1630177301355390, "dur":1, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":8, "ts":1630177301335149, "dur":20219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":20, "detail":"" }}
+,{ "pid":"bee_backend", "tid":8, "ts":1630177301355369, "dur":4, "ph":"X", "name": "Exiting",  "args": { "durationMS":0, "detail":"BuildLoop" }}
+,{}
+
+],
+"meta_datetime": "08/29/2021 04:01:41",
+"meta_command_line": "/Applications/Unity/Hub/Editor/2021.2.0b7/Unity.app/Contents/il2cpp/build/deploy/net5.0/il2cpp.dll --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-macos \"--cachedirectory=/Users/tg/Documents/GitHub/AR furniture/AR furniture/Library/Il2cppBuildCache/iOS\" \"--additional-cpp=/Users/tg/Documents/GitHub/AR furniture/AR furniture/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"--additional-cpp=/Users/tg/Documents/GitHub/AR furniture/AR furniture/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --dont-deploy-baselib --profiler-report \"--directory=/Users/tg/Documents/GitHub/AR furniture/AR furniture/Temp/StagingArea/Data/Managed\" \"--generatedcppdir=/Users/tg/Documents/GitHub/AR furniture/AR furniture/Library/Il2cppBuildCache/iOS/il2cppOutput\" --convert-in-graph",
+"meta_command_line_args": "/Applications/Unity/Hub/Editor/2021.2.0b7/Unity.app/Contents/il2cpp/build/deploy/net5.0/il2cpp.dll --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-macos --cachedirectory=/Users/tg/Documents/GitHub/AR furniture/AR furniture/Library/Il2cppBuildCache/iOS --additional-cpp=/Users/tg/Documents/GitHub/AR furniture/AR furniture/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp --additional-cpp=/Users/tg/Documents/GitHub/AR furniture/AR furniture/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --dont-deploy-baselib --profiler-report --directory=/Users/tg/Documents/GitHub/AR furniture/AR furniture/Temp/StagingArea/Data/Managed --generatedcppdir=/Users/tg/Documents/GitHub/AR furniture/AR furniture/Library/Il2cppBuildCache/iOS/il2cppOutput --convert-in-graph",
+"meta_user_name": "tg",
+"meta_os_version": "Unix 11.0.0",
+"meta_cpu_count": "8"
+}

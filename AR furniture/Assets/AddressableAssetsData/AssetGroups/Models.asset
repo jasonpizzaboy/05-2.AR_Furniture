@@ -16,7 +16,47 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 68163d4b1d59a40b683ef0575608da73
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: fa0c811a12a31432e94c027470aa2123
+    m_Address: Assets/AdressableAssets/items/BookShelf2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 180b67c3b748b4ab7b41344bf92532f8
+    m_Address: Assets/AdressableAssets/items/Chair2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: cb6128006726143049a1119dfc36c125
+    m_Address: Assets/AdressableAssets/items/Table2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: a8baeec85676746f99d127e15e9d90ab
+    m_Address: Assets/AdressableAssets/items/Sofa2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: a5cfc4f2a039b42478179344270c07b7
+    m_Address: Assets/AdressableAssets/items/BookShelf.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 5d240486c773c44f9a12892ef56425a2
+    m_Address: Assets/AdressableAssets/items/Chair.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 771d6d517a6a94a008881096f7c1ed09
+    m_Address: Assets/AdressableAssets/items/Sofa.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+  - m_GUID: 812b1951046f342a8a8aced799303628
+    m_Address: Assets/AdressableAssets/items/Table.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d15c01c8ad0564b72970b1898c104b12, type: 2}
   m_SchemaSet:

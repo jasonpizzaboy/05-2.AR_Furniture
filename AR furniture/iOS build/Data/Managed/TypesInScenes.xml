@@ -4,6 +4,7 @@
 		<type fullname="ClassificationPlane" preserve="nothing"/>
 		<type fullname="DataHandler" preserve="nothing"/>
 		<type fullname="InputManager" preserve="nothing"/>
+		<type fullname="Item" preserve="nothing"/>
 		<type fullname="PlaceObject" preserve="nothing"/>
 		<type fullname="UIContentFitter" preserve="nothing"/>
 		<type fullname="UIManager" preserve="nothing"/>
@@ -36,6 +37,9 @@
 	</assembly>
 	<assembly fullname="Unity.XR.Interaction.Toolkit">
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.AR.ARGestureInteractor" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.AR.ARRotationInteractable" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.AR.ARSelectionInteractable" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.AR.ARTranslationInteractable" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.XRInteractionManager" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.Management">
